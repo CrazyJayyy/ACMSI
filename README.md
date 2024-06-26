@@ -1,6 +1,6 @@
 # ACMSI
 The shiny-based software for Fragment Analysis, especially for MSI analysis
-The Windows Version for directly used: 
+The Windows Version for directly used: \n
 https://szfile.haplox.net:7071/f/108c6e555eb7495ea72c/?dl=1
 (linux or mac can run app.R with MSIanalysis.py to build a server)
 The workflow shows:
