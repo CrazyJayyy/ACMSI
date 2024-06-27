@@ -4,6 +4,19 @@ The `Windows` version for directly used:<br>
 [click here to download ACMSI](https://szfile.haplox.net:7071/f/108c6e555eb7495ea72c/?dl=1 "windows version")<br>
 (`Linux or Mac` can run **app.R** with **MSIanalysis.py** to build a server)
 <br><br>
+
+
+<br>
+| Software       | Alignment Failure (322) |             | MSI markers (725) |             | Samples (126) |
+| -------------- | ----------------------- | ----------- | ----------------- | ----------- | ------------- |
+|                |                         | sensitivity | specificity       | sensitivity | specificity   |
+| ACMSI          | 99.07%                  | 96.30%      | 99.64%            | 100%        | 100%          |
+| GeneMarker     | 97.52%                  | -           | -                 | -           | -             |
+| PeakScanner    | 97.52% (0.93%)          | -           | -                 | -           | -             |
+| GeneMapper     | 95.96%                  | -           | -                 | -           | -             |
+| Coffalyser.net | 46.27%                  | -           | -                 | -           | -             |
+<br> 
+
 **The overall workflow shows:<br>**
 ![The workflow of ACMSI](https://github.com/CrazyJayyy/ACMSI/assets/173884768/61208972-613e-407d-b568-9404fc6b9295)
 **Followings show the UI of 3 main modules of ACMSI:<br>**
