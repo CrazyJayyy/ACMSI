@@ -5,17 +5,64 @@ The `Windows` version for directly used:<br>
 (`Linux or Mac` can run **app.R** with **MSIanalysis.py** to build a server)
 <br><br>
 
+<table border="1.5">
+    <tr>
+        <th rowspan="3">Software</th>
+        <th rowspan="3">Size Calling (322)</th>
+        <th colspan="4" align="center">MSI Classification</th>
+    </tr>
+    <tr>
+        <th colspan="2">MSI markers (725)</th>
+        <th colspan="2">Samples (126)</th>
+    </tr>
+    <tr>
+        <td>sensitivity</td>
+        <td>specificity</td>
+        <td>sensitivity</td>
+        <td>specificity</td>
+    </tr>
+    <tr>
+        <td><b>ACMSI</b></td>
+        <td bgcolor=lightblue>99.07%</td>
+        <td>96.30%</td>
+        <td>99.64%</td>
+        <td>100%</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td><b>GeneMarker</b></td>
+        <td>97.52%</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td><b>PeakScanner</b></td>
+        <td>97.52% (0.93%)</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td><b>GeneMapper</b></td>
+        <td>95.96%</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td><b>coffalyser.NET</b></td>
+        <td>46.27%</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+</table>
 
-<br>
-| Software       | Alignment Failure (322) |             | MSI markers (725) |             | Samples (126) |
-| -------------- | ----------------------- | ----------- | ----------------- | ----------- | ------------- |
-|                |                         | sensitivity | specificity       | sensitivity | specificity   |
-| ACMSI          | 99.07%                  | 96.30%      | 99.64%            | 100%        | 100%          |
-| GeneMarker     | 97.52%                  | -           | -                 | -           | -             |
-| PeakScanner    | 97.52% (0.93%)          | -           | -                 | -           | -             |
-| GeneMapper     | 95.96%                  | -           | -                 | -           | -             |
-| Coffalyser.net | 46.27%                  | -           | -                 | -           | -             |
-<br> 
 
 **The overall workflow shows:<br>**
 ![The workflow of ACMSI](https://github.com/CrazyJayyy/ACMSI/assets/173884768/61208972-613e-407d-b568-9404fc6b9295)
