@@ -23,7 +23,7 @@ The `Windows` version for directly used:<br>
     </tr>
     <tr>
         <td><b>ACMSI</b></td>
-        <td bgcolor=lightblue>99.07%</td>
+        <td>99.07%</td>
         <td>96.30%</td>
         <td>99.64%</td>
         <td>100%</td>
