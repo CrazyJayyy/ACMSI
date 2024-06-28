@@ -3,7 +3,7 @@
 The `Windows` version for directly used:<br>
 [click here to download ACMSI](https://szfile.haplox.net:7071/f/108c6e555eb7495ea72c/?dl=1 "windows version")<br>
 (`Linux or Mac` can run **app.R** with **MSIanalysis.py** to build a server)
-<br><br>
+<br>
 
 <table border="1.5">
     <tr>
@@ -63,10 +63,17 @@ The `Windows` version for directly used:<br>
     </tr>
 </table>
 
-
-**The overall workflow shows:<br>**
+**<br>The overall workflow shows:<br>**
 ![The workflow of ACMSI](https://github.com/CrazyJayyy/ACMSI/assets/173884768/61208972-613e-407d-b568-9404fc6b9295)
-**Followings show the UI of 3 main modules of ACMSI:<br>**
+<br>
+**The result of MSI classification:<br>**
+The `red` portion represents **peaks shared** between tumor and normal tissues<br> 
+The `purple` portion represents **elevated peaks** in tumor tissue compared to normal tissue<br> 
+The `black` portion represents **new peaks** in tumor tissue<br>
+![图片](https://github.com/CrazyJayyy/ACMSI/assets/173884768/e29badef-a958-4c7b-bde2-7a2ed629c1f0)
+
+
+**<br>Followings show the UI of 3 main modules of ACMSI:<br>**
 **<br>1. Plot of Fragment Analysis**
 ![2024-06-14-14-31-10](https://github.com/CrazyJayyy/ACMSI/assets/173884768/5e9ba75a-36f1-43d4-b5f1-2393864e93c1)
 **<br>2. Calibration of Size Calling**
